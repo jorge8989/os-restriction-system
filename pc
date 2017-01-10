@@ -23,12 +23,24 @@ xkb_symbols "pc105" {
     key <NMLK> {	[ Num_Lock 		]	};
 
     key <LFSH> {	[ Shift_L		]	};
-    key <LCTL> {	[ Control_L		]	};
-    key <LWIN> {	[ Super_L		]	};
+    key <LCTL> {	[       		]	};
+    key <LWIN> {	[       		]	};
 
     key <RTSH> {	[ Shift_R		]	};
-    key <RCTL> {	[ Control_R		]	};
-    key <RWIN> {	[ Super_R		]	};
+    key <RCTL> {	[       		]	};
+    key <RWIN> {	[       		]	};
+    key <FK01> {	[   grave    		]	};
+    key <FK02> {	[   grave    		]	};
+    key <FK03> {	[   grave    		]	};
+    key <FK04> {	[   grave    		]	};
+    key <FK05> {	[   grave    		]	};
+    key <FK06> {	[   grave    		]	};
+    key <FK07> {	[   grave    		]	};
+    key <FK08> {	[   grave    		]	};
+    key <FK09> {	[   grave    		]	};
+    key <FK10> {	[   grave    		]	};
+    key <FK11> {	[   grave    		]	};
+    key <FK12> {	[   grave    		]	};
     key <MENU> {	[ Menu			]	};
 
     // Beginning of modifier mappings.
@@ -43,8 +55,9 @@ xkb_symbols "pc105" {
     key <MDSW> {	[ Mode_switch 		]	};
     modifier_map Mod5   { <LVL3>, <MDSW> };
 
-    key <ALT>  {	[ NoSymbol, Alt_L	]	};
+    key <ALT>  {	[ NoSymbol, grave	]	};
     include "altwin(meta_alt)"
+    key <LALT>  {	[ grave	]	};
 
     key <META> {	[ NoSymbol, Meta_L	]	};
     modifier_map Mod1   { <META> };
